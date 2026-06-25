@@ -14,7 +14,7 @@ RAW_DIR  = BASE_DIR / "data" / "raw"
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 
 BASE_URL    = "https://api.mfapi.in/mf"
-REQUEST_DELAY_SEC = 0.5   # Polite rate-limit between calls
+REQUEST_DELAY_SEC = 0.5   
 
 KEY_SCHEMES = {
     125497: "HDFC Top 100 Direct",
